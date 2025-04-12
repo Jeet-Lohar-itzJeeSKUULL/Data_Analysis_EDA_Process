@@ -5,46 +5,53 @@ This repository contains a comprehensive Exploratory Data Analysis (EDA) project
 🔗 Link to the dataset: https://carapi.app/features/vehicle-csv-download
 
 📌 Objectives
-🔍 Identify the most common car types and brands to understand market dominance.
 
-⛽ Compare fuel efficiency across different vehicle types like SUVs and sedans.
+  🔍 Identify the most common car types and brands to understand market dominance.
 
-🏭 Analyze production trends by car brands over the years.
+  ⛽ Compare fuel efficiency across different vehicle types like SUVs and sedans.
 
-🌟 Explore preferred engine oil types (e.g., Gas, Hybrid) among customers.
+  🏭 Analyze production trends by car brands over the years.
 
-🚗 Reveal preferred driving modes (e.g., All-wheel drive) for different segments.
+  🌟 Explore preferred engine oil types (e.g., Gas, Hybrid) among customers.
 
-🏔️ Compare the highest ground clearance provided by various brands.
+  🚗 Reveal preferred driving modes (e.g., All-wheel drive) for different segments.
+
+  🏔️ Compare the highest ground clearance provided by various brands.
 
 🛠️ Tools and Technologies
-Programming Language: Python
 
-Libraries Used:
+  Programming Language: Python
 
-📊 Pandas: For data manipulation and analysis
+  Libraries Used:
 
-🧮 NumPy: For numerical computations
+    📊 Pandas: For data manipulation and analysis
 
-🎨 Matplotlib & Seaborn: For data visualization
+    🧮 NumPy: For numerical computations
 
-📈 Scikit-learn: For basic statistical analysis and preprocessing
+    🎨 Matplotlib & Seaborn: For data visualization
+
+    📈 Scikit-learn: For basic statistical analysis and preprocessing
+
 ✨ Key Features
-Data Cleaning: Handling missing values and preparing data for analysis.
 
-Visualization: Bar charts, scatter plots, pie charts, and violin plots to communicate insights.
+  Data Cleaning: Handling missing values and preparing data for analysis.
 
-Insights: Actionable conclusions derived from real-world automotive data.
+  Visualization: Bar charts, scatter plots, pie charts, and violin plots to communicate insights.
+
+  Insights: Actionable conclusions derived from real-world automotive data.
 
 💡 Future Scope
-Extend analysis to include more complex predictive models.
 
-Analyze environmental impacts, such as emissions, for sustainability insights.
+  Extend analysis to include more complex predictive models.
 
-Incorporate additional datasets for a broader market analysis.
+  Analyze environmental impacts, such as emissions, for sustainability insights.
+
+  Incorporate additional datasets for a broader market analysis.
 
 🤝 Contributions
-Contributions and suggestions are welcome! Feel free to fork this repository, submit issues, or create pull requests.
+
+  Contributions and suggestions are welcome! Feel free to fork this repository, submit issues, or create pull requests.
 
 📧 Contact
-For any questions or feedback, please reach out via https://www.linkedin.com/in/jeet-lohar/.
+
+  For any questions or feedback, please reach out via https://www.linkedin.com/in/jeet-lohar/.
