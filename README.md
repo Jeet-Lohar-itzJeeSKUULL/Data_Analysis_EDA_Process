@@ -1,6 +1,6 @@
 🚗 Exploratory Data Analysis (EDA) on Car Details Dataset
 
-    This repository contains a comprehensive Exploratory Data Analysis (EDA) project focusing on a car details dataset. The objective is to extract meaningful insights about automotive specifications, customer preferences, and production trends through structured analysis and data visualization techniques.
+This repository contains a comprehensive Exploratory Data Analysis (EDA) project focusing on a car details dataset. The objective is to extract meaningful insights about automotive specifications, customer preferences, and production trends through structured analysis and data visualization techniques.
 
 🔗 Link to the dataset: https://carapi.app/features/vehicle-csv-download
 
