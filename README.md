@@ -50,8 +50,8 @@ This repository contains a comprehensive Exploratory Data Analysis (EDA) project
 
 🤝 Contributions
 
-    Contributions and suggestions are welcome! Feel free to fork this repository, submit issues, or create pull requests.
+Contributions and suggestions are welcome! Feel free to fork this repository, submit issues, or create pull requests.
 
 📧 Contact
 
-    For any questions or feedback, please reach out via https://www.linkedin.com/in/jeet-lohar/.
+For any questions or feedback, please reach out via https://www.linkedin.com/in/jeet-lohar/.
