@@ -54,4 +54,4 @@ Contributions and suggestions are welcome! Feel free to fork this repository, su
 
 📧 Contact
 
-For any questions or feedback, please reach out via https://www.linkedin.com/in/jeet-lohar/.
+For any questions or feedback, please reach out via https://www.linkedin.com/in/jeet-lohar/
