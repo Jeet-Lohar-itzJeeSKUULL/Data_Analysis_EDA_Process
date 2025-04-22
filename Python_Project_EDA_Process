@@ -6,6 +6,7 @@ import seaborn as sns
 df = pd.read_csv(r"C:\Users\jeetl\Downloads\carapi-opendatafeed-sample.csv")
 
 # Data Cleaning
+
 print("\n------------------------------------------------------------------------------------")
 print("Data Frame Information")
 print("------------------------------------------------------------------------------------")
@@ -47,12 +48,14 @@ print()
 # Objective 1: Identify the most common Car Types and Car Brands.
 
 # (1.1) Top 5 most common Car Type
+
 print("------------------------------------------------------------------------------------")
 print("Top 5 Most Common Car Types:")
 print("------------------------------------------------------------------------------------")
 print(df['Body Type'].value_counts().head())
 
 # Plot for Car Types
+
 plt.figure(figsize=(12, 6))
 bars = plt.bar(df['Body Type'].value_counts().head().index, df['Body Type'].value_counts().head().values, color='skyblue')
 plt.title('Top 5 Most Common Vehicle Types')
@@ -65,12 +68,14 @@ for bar in bars:
 plt.show()
 
 # (1.2) Top 5 most common Car Brand
+
 print("------------------------------------------------------------------------------------")
 print("Top 5 Most Common Car Brand:")
 print("------------------------------------------------------------------------------------")
 print(df['Make Name'].value_counts().head())
 
 # Plot for makes
+
 plt.figure(figsize=(12, 6))
 bars = plt.bar(df['Make Name'].value_counts().head().index, df['Make Name'].value_counts().head().values, color='salmon')
 plt.title('Top 5 Most Common Makes')
@@ -85,6 +90,7 @@ plt.show()
 # -----------------------------------------------------------------------------------------------------------------------------------------------
 
 # Objective 2: Compare fuel efficiency across different vehicle types (e.g., SUVs, Sedans).
+
 print("------------------------------------------------------------------------------------")
 print("Comparing fuel efficiency across different Car Types")
 print("------------------------------------------------------------------------------------")
@@ -93,6 +99,7 @@ print(comp)
 print()
 
 # Plot for Comparision
+
 bars = sns.violinplot(x='Body Type', y='Mileage Fuel Tank Capacity', data=df)
 plt.title('Fuel Efficiency Across Car Types')
 plt.xticks(rotation=90)
@@ -108,6 +115,7 @@ plt.show()
 # -----------------------------------------------------------------------------------------------------------------------------------------------
 
 # Objective 3: Analyze the count of each company production in different years.
+
 print("------------------------------------------------------------------------------------")
 print("Count of Each Car Brand Production per Year")
 print("------------------------------------------------------------------------------------")
@@ -118,6 +126,7 @@ print(pivot_table)
 print()
 
 # Plot for Comparision
+
 plt.figure(figsize=(10, 6))
 for company in production_counts['Trim Year'].unique():
     company_data = production_counts[production_counts['Trim Year'] == company]
@@ -134,6 +143,7 @@ plt.show()
 # -----------------------------------------------------------------------------------------------------------------------------------------------
 
 # Objective 4: Preferred Engine oil type by customers (Ex. Gas, Hybrid).
+
 print("------------------------------------------------------------------------------------")
 print("Preferred Engine Oil Type by Customers")
 print("------------------------------------------------------------------------------------")
@@ -142,6 +152,7 @@ print(oil_preference)
 print()
 
 # Plot for Comparision
+
 plt.figure(figsize=(12, 8))
 bars = sns.barplot(
     data=oil_preference,
@@ -160,6 +171,7 @@ plt.show()
 # -----------------------------------------------------------------------------------------------------------------------------------------------
 
 # Objective 5: Preferred Driving mode by customers (Ex. All wheel drive).
+
 print("------------------------------------------------------------------------------------")
 print("Preferred Driving mode by Customers")
 print("------------------------------------------------------------------------------------")
@@ -168,6 +180,7 @@ print(driving_mode_counts)
 print()
 
 # Plot for Comparision
+
 plt.figure(figsize=(8, 8))
 plt.pie(
     driving_mode_counts['count'],
@@ -181,6 +194,7 @@ plt.show()
 # -----------------------------------------------------------------------------------------------------------------------------------------------
 
 # Objective 6: Compare among the highest Ground Clearance given by a company.
+
 print("------------------------------------------------------------------------------------")
 print("Compare among highest Ground Clearance given by each Car Brand")
 print("------------------------------------------------------------------------------------")
@@ -189,6 +203,7 @@ print(max_clearance)
 print()
 
 # Plot for comparision
+
 plt.figure(figsize=(8, 6))
 plt.scatter(
     max_clearance['Make Name'],
