@@ -42,6 +42,27 @@ print("Missing Values:")
 print("------------------------------------------------------------------------------------")
 print(df.isnull().sum())
 print()
+df.dropna()
+print()
+print("------------------------------------------------------------------------------------")
+print("Outliers:")
+print("------------------------------------------------------------------------------------")
+Q1 = df['Mileage Fuel Tank Capacity'].quantile(0.25)
+Q3 = df['Mileage Fuel Tank Capacity'].quantile(0.75)
+IQR = Q3 - Q1
+
+lower_bound = Q1 - 1.5 * IQR
+upper_bound = Q3 + 1.5 * IQR
+
+outliers = df[(df['Mileage Fuel Tank Capacity'] < lower_bound) | (df['Mileage Fuel Tank Capacity'] > upper_bound)]
+print("Outliers using IQR:")
+print(outliers)
+
+plt.figure(figsize=(8, 6))
+plt.scatter(df['Make Name'], df['Mileage Fuel Tank Capacity'], color='blue')
+plt.title('Outlier Detection Using Scatter Plot')
+plt.xticks(rotation=90)
+plt.show()
 
 # -----------------------------------------------------------------------------------------------------------------------------------------------
 
