@@ -118,7 +118,7 @@ Car-EDA/
 ## 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/your-username/car-eda-project.git
+git clone https://github.com/Jeet-Lohar-itzJeeSKUULL/Data_Analysis_EDA_Process.git
 cd car-eda-project
 ```
 
